@@ -15,5 +15,5 @@
 - 정보처리기사 필기 목차 순서대로 공부한다.
 
 ## Useful Reference
-- [Algorithm] [권오흠 알고리즘](https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C#curriculum)
+- [Algorithm] [권오흠 교수님의 알고리즘](https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C#curriculum)
 - [Computer Science] [tech-interview-for-developer](https://github.com/gyoogle/tech-interview-for-developer)
