@@ -6,12 +6,10 @@
 - 각자 공부한 내용을 이 repository에 올리고 온라인 또는 오프라인으로 스터디에게 공유한다.
 - 문서 작업은 [Markdown](https://gist.github.com/ihoneymon/652be052a0727ad59601)을 사용한다.
 
-## Algorithm
-- [프로그래머스](https://programmers.co.kr/), [백준](https://www.acmicpc.net/), [삼성아카데미](https://swexpertacademy.com/main/main.do)에서 제공하는 문제를 풀어 코드를 올리고 서로의 코드를 확인 후 피드백한다.
-
-## Data Structure
+## Data Structure & Algorithm
 - [Do it! 자료구조와 함께 배우는 알고리즘 입문: 자바 편](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=143301556) 목차 순서대로 공부한다.
 - 정해진 주제에 맞추어 유용한 정보들을 공유한다.
+- [프로그래머스](https://programmers.co.kr/), [백준](https://www.acmicpc.net/), [삼성아카데미](https://swexpertacademy.com/main/main.do)에서 제공하는 문제를 풀어 코드를 올리고 서로의 코드를 확인 후 피드백한다.
 
 ## Computer Science
 - 정보처리기사 필기 목차 순서대로 공부한다.
