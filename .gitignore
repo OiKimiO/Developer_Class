@@ -28,5 +28,6 @@ codekit-config.json
 _asset_bundler_cache
 _site
 
-#Code
+# Code, Concept
 /Code
+/Concept
