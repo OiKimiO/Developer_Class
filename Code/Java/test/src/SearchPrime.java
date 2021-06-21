@@ -2,9 +2,9 @@ public class SearchPrime {
 //11
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-	  System.out.println("È®ÀÎ");
-	  // È®ÀÎÁß
-	  // ÀÌÅ¬¸³½º ³» È®ÀÎ
+	  System.out.println("í™•ì¸ì¤‘");
+	  // utf-8ì„
+	  // ì™€ìš°
 	}
 
 }
