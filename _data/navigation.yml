@@ -1,7 +1,13 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  - title : "블로그 방문하기"
+    url   : https://oikimio.github.io/Developer_Class/
+  - title    : Categories
+    sublinks :
+      - title : 자료구조 & 알고리즘 
+        url   : /testPage/    
+  - title : About
+    url   : /about/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
