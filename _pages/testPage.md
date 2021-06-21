@@ -1,15 +1,8 @@
 ---
-permalink: /testPage/
-layout: single
+title     : "자료구조/알고리즘 목차"
+permalink : /testPage/
+layout    : single
 ---
-<ul class="posts-list">  
-    <li>
-      <h3>
-        <a herf="http://www.naver.com" target="_blank">배열</a>	
-        <small>14 Aug 2018</small>
-      </h3>
-    </li>  
-</ul>
 
-
-
+ * [배열](/array/)
+ 
