@@ -28,9 +28,6 @@ codekit-config.json
 _asset_bundler_cache
 _site
 
-# Concept
-/Concept
-
 #Java
 /Code/Java/test/bin
 
