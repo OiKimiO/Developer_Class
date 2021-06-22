@@ -28,5 +28,9 @@ codekit-config.json
 _asset_bundler_cache
 _site
 
-#Java
-/Code/Java/test/bin
+# Java
+*.class
+*.classpath
+*.project
+.settings/
+
