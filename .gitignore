@@ -31,5 +31,8 @@ _site
 # Concept
 /Concept
 
-#Java Class
-/Code/Java/test/bin
+# Java
+*.class
+*.classpath
+*.project
+.settings/
