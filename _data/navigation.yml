@@ -6,6 +6,8 @@ main:
     sublinks :
       - title : 자료구조 & 알고리즘 
         url   : /testPage/    
+      - title : 테스트 
+        url   : /test/
   - title : About
     url   : /about/
   # - title: "About"
