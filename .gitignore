@@ -32,4 +32,4 @@ _site
 /Concept
 
 # Java
-*.class
+/Code/Java/test/bin/**/*.class
