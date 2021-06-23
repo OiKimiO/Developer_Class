@@ -4,7 +4,7 @@ permalink : /DataSturcture&Algorithm/
 layout    : single
 ---
 
- > [배열](https://oikimio.github.io/array/){: .txt_decor}
+ > [배열](https://oikimio.github.io/Developer_Class/array/){: .txt_decor}
  
 
  
