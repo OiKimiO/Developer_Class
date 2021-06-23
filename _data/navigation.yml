@@ -5,9 +5,8 @@ main:
   - title    : Categories
     sublinks :
       - title : 자료구조 & 알고리즘 
-        url   : /testPage/    
-      - title : 테스트 
-        url   : /test/
+        url   : /DataSturcture&Algorithm/    
+      
   - title : About
     url   : /about/
   # - title: "About"
