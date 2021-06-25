@@ -1,12 +1,16 @@
 package EH.DoItJava;
 
+import java.util.*;
+import java.io.*;
 public class Chapter02 {
 	
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException {
 		int[] a = {5, 10, 73, 2, -5, 42};
 		int[] b = new int[a.length];
 		char[] d = new char[20];
 		System.out.println(cardConvR(5,16,d));
+		
+		inputNum();
 		
 		/*
 		copy(a,b);	// copy 메서드에서만 a배열을 clone
@@ -19,6 +23,27 @@ public class Chapter02 {
 		printArr(a,"rcopy 메서드 후 배열 a :::");
 		printArr(b,"rcopy 메서드 후 배열 b :::");
 		*/
+	}
+	
+	static void inputNum() throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringTokenizer st = new StringTokenizer(br.readLine());
+		while(st.hasMoreTokens()) {
+			double num = Double.parseDouble(st.nextToken());
+			if(num > 0 && num <= 1) continue;
+			int check = searchPrime(num);
+			if(check == 0) continue;
+			System.out.println(check);
+		}
+	}
+	
+	static int searchPrime(double num) {		
+		if(num == 2.0) return (int) num;
+		int primeRange = (int) Math.sqrt(num);		
+		for(int i = 2; i <= primeRange; i++) {
+			if(num % i == 0) return 0;
+		}
+		return (int) num;		
 	}
 	
 	// 16진수로 변환
