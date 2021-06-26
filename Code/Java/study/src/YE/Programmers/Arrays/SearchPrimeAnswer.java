@@ -1,4 +1,4 @@
-package YE.Prime;
+package YE.Programmers.Arrays;
 
 public class SearchPrimeAnswer {
 	public static void main(String[] args) {
