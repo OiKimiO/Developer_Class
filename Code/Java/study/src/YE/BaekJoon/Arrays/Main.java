@@ -1,4 +1,4 @@
-package YE.Beakjoon.Arrays;
+package YE.BaekJoon.Arrays;
 
 import java.util.Scanner;
 
