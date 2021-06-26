@@ -90,8 +90,15 @@ public class Chapter02 {
 		return sum;
 	}
 	
-	static void copy(int[] a, int[] b) {
-		b = a.clone();
+	static void copy(int[] c, int[] d) {
+		/* 파라미터 a,b는 main의 인자 배열 a,b의 참조값을 받는다. 
+		   copy에서는 새롭게 stack에 c와 d라는 참조 변수를 생성한다. 
+		   c는 배열 a의 참조값을 d는 b의 참조값을 가지고 있다. 
+		   d배열(b의 참조값)에 c배열(a의 참조값)의 복제하지만 main에서는 변화가 없다.
+		   왜냐하면 copy라는 메서드가 종료 될 때 stack에 쌓여 있던 배열 c,d는 없어지기 때문에 
+		   c배열(a의 참조값)의 복제가 담긴  d배열은 없어지게 된다(stack에서 d가 사라지게 됨) 		    
+		  */ 
+		d = c.clone();		
 		// System.out.println("copy ::: " + sumOf(b));		
 	}
 	

@@ -1,5 +1,4 @@
-package YE.Prime;
-
+package YE.Programmers.Arrays;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.lang.Math;
