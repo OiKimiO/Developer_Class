@@ -1,0 +1,9 @@
+package YE.Programmers.Arrays;
+
+public class SearchPrime {
+
+	public static void main(String[] args) {
+		System.out.println("테스");
+	}
+
+}
