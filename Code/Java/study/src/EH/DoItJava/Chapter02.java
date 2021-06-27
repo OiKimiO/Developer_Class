@@ -8,9 +8,15 @@ public class Chapter02 {
 		int[] a = {5, 10, 73, 2, -5, 42};
 		int[] b = new int[a.length];
 		char[] d = new char[20];
-		System.out.println(cardConvR(5,16,d));
 		
-		inputNum();
+		//reverse(a);
+		// for(int num : a) System.out.println(num);
+		String str = "b";
+		str = "cd";
+		
+		//System.out.println(cardConvR(5,16,d));
+		
+		// inputNum();
 		
 		/*
 		copy(a,b);	// copy 메서드에서만 a배열을 clone
