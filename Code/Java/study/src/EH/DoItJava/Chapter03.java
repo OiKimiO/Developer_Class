@@ -12,9 +12,7 @@ public class Chapter03 {
 			a[i] = str.charAt(i) - '0';
 		}
 		
-		// printSeqSearch(a,4);
-		// searchIdx(a,9);
-		binarySearch(a,4,0,a.length);
+		binarySearch(a,2,0,a.length - 1);
 	}
 	
 	static void searchIdx(int[] a, int key) {
@@ -28,13 +26,13 @@ public class Chapter03 {
 	static void binarySearch(int[] a, int key, int start, int end) {		
 		while(true) {
 			int mid = (start + end) / 2;
-			if(key == mid) {
+			if(key == a[mid]) {
 				System.out.println(mid);
 				break;
 			}
-			if(mid > key){				
+			if(a[mid] > key){
 				binarySearch(a,key,start,mid - 1);				
-			}else if(mid < key){				
+			}else if(a[mid] < key){				
 				binarySearch(a,key,mid + 1,end);
 			}
 			break;
