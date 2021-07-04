@@ -1,4 +1,4 @@
-package EH.DoItJava;
+package EH.DoItJava.Chapter02;
 
 import java.util.*;
 import java.io.*;
