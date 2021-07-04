@@ -1,4 +1,4 @@
-package EH.DoItJava;
+package EH.DoItJava.Chapter01;
 
 public class Chapter01 {
 
