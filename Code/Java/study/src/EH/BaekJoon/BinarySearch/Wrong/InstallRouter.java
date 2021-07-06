@@ -1,7 +1,7 @@
-package EH.BaekJoon.BinarySearch;
+package EH.BaekJoon.BinarySearch.Wrong;
 import java.util.*;
 
-public class Main {
+public class InstallRouter {
     static int N;
 	static long C, findNum;
     static long[] homeArr;
@@ -29,7 +29,7 @@ public class Main {
 				cnt++;
 			}
 		}		
-		System.out.println(start + " " + mid + " " + end + " " + cnt);
+		
 		if(cnt >= C) {
 			findNum = mid;
 			binarySearch(mid+1,end);
