@@ -4,18 +4,21 @@ import java.io.*;
 import EH.DoItJava.common.Common;
 
 public class MergeSort {
+	static Common c   = new Common();
 	static int[] a;
+	static int length;
 	static int[] buff;
+	
 	// 테스트  : 7 22 5 11 32 120 68 70
 	public static void main(String[] args) throws IOException {		
-		a = Common.sortWrite(a);	
-		mergeSort(a.length);
-		Common.print(a);
+		c.sortWrite(a);	
+		mergeSort();
+		c.arrPrint(a);
 	}
 	
-	public static void mergeSort(int n) {
-		buff = new int[n];
-		__mergeSort(0,n-1,"main");
+	public static void mergeSort() {
+		buff = new int[length];
+		__mergeSort(0,length-1,"main");
 		buff = null;
 	}
 	
